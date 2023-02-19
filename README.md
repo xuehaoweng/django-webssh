@@ -1,11 +1,13 @@
 # django-webssh
+
 python-django-webssh
+
 # 后端通过paramiko.SSHClient() 和设备建立后端连接
 ```
 from channels.auth import AuthMiddlewareStack
 from channels.routing import ProtocolTypeRouter, URLRouter
 ```
-前端通过websocket
+# 前端通过xterm+websocket
 
 ```
 import { Terminal } from 'xterm'
